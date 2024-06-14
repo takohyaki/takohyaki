@@ -1,4 +1,4 @@
-// src/pages/resume.js
+// src/components/ResumePage.js
 import Layout from '../components/Layout';
 import styles from '../styles/ResumePage.module.css';
 
@@ -8,7 +8,7 @@ const ResumePage = () => (
       <h1>Resume</h1>
       <h2>Education</h2>
       <ul>
-        <li>Bachelor's degree in Data Science, Yale-NUS College</li>
+        <li>Bachelor&apos;s degree in Data Science, Yale-NUS College</li>
       </ul>
       <h2>Experience</h2>
       <ul>
@@ -21,3 +21,4 @@ const ResumePage = () => (
 );
 
 export default ResumePage;
+
