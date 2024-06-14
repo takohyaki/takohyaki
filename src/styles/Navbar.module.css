@@ -1,29 +1,22 @@
-/* src/styles/Navbar.module.css */
 .nav {
-    background: #413e40;
-    color: #ffffff;
-    padding: 10px 20px;
+    background-color: #413e40;
+    padding: 10px 0;
+    text-align: center;
   }
-  
+
   .navList {
     list-style: none;
-    padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: space-around;
+    padding: 0;
   }
   
   .navList li {
-    margin-right: 20px;
+    display: inline;
+    margin: 0 15px;
   }
   
   .navList li a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: bold;
   }
-  
-  .navList li a:hover {
-    text-decoration: underline;
-  }
-  

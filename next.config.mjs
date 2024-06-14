@@ -1,13 +1,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'akamai',
-    path: '',
+    loader: 'default',
   },
-  basePath: '',
-  assetPrefix: './',
-  trailingSlash: true,
-  output: 'export',
 };
 
 export default nextConfig;
