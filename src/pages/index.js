@@ -17,7 +17,7 @@ const HomePage = () => {
           />
         </div>
         <h1>Hi, I'm Tammie Koh</h1>
-        <h2>Data Scientist</h2>
+        <h2>Aspiring Data Scientist</h2>
         <p>Welcome to my personal website! I specialize in data analysis and machine learning. Let's explore the world of data together!</p>
       </section>
       <footer className={styles.footer}>
