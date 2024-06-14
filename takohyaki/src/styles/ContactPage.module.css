@@ -1,0 +1,21 @@
+/* src/styles/ContactPage.module.css */
+.contact {
+    padding: 50px 20px;
+    background: #fff;
+    color: #333;
+  }
+  
+  .contact h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1rem;
+  }
+  
+  .contact a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  

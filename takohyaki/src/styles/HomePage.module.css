@@ -1,0 +1,43 @@
+/* src/styles/HomePage.module.css */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  .imageContainer {
+    width: 150px; /* Adjust to your desired container size */
+    height: 150px; /* Adjust to your desired container size */
+    border-radius: 50%;
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    margin: 0 auto 20px; /* Center the container and add bottom margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profileImage {
+    width: 200px; /* Larger than the container to create a zoom effect */
+    height: 200px; /* Larger than the container to create a zoom effect */
+    object-fit: cover;
+    transform: scale(1.2) translateY(-20px); /* Zoom in and move the image down */
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .hero h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
